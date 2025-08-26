@@ -1,0 +1,8 @@
+openai
+PyMuPDF
+python-dotenv
+IPython
+jupyter
+jupyterlab
+ipykernel
+streamlit

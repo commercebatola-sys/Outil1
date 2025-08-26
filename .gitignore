@@ -1,0 +1,344 @@
+# 🚀 GENAI - Fichier .gitignore
+
+# =============================================================================
+# PYTHON
+# =============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# =============================================================================
+# ENVIRONNEMENTS VIRTUELS
+# =============================================================================
+
+# Environnements virtuels spécifiques au projet
+ollama_env/
+openrouter_env/
+openai_env/
+genai_env/
+
+# Environnements conda
+.conda/
+
+# =============================================================================
+# CLÉS API ET CONFIGURATION
+# =============================================================================
+
+# Fichiers de configuration avec clés API
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Fichiers de configuration sensibles
+config.ini
+secrets.json
+credentials.json
+api_keys.txt
+
+# =============================================================================
+# STREAMLIT
+# =============================================================================
+
+# Configuration Streamlit
+.streamlit/secrets.toml
+
+# =============================================================================
+# DONNÉES ET DOCUMENTS
+# =============================================================================
+
+# Documents PDF d'exemple (optionnel - décommentez si vous voulez les ignorer)
+# data/*.pdf
+
+# Fichiers de données temporaires
+*.tmp
+*.temp
+*.cache
+
+# =============================================================================
+# SYSTÈME D'EXPLOITATION
+# =============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.tmp
+*.temp
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# =============================================================================
+# ÉDITEURS ET IDES
+# =============================================================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# =============================================================================
+# GIT
+# =============================================================================
+
+# Fichiers Git temporaires
+*.orig
+*.rej
+*.bak
+
+# =============================================================================
+# LOGS ET MONITORING
+# =============================================================================
+
+# Fichiers de logs
+*.log
+logs/
+log/
+
+# Fichiers de monitoring
+*.pid
+*.lock
+
+# =============================================================================
+# DÉVELOPPEMENT ET TESTS
+# =============================================================================
+
+# Fichiers de test
+test_*.py
+*_test.py
+tests/
+
+# Fichiers de développement
+dev/
+development/
+staging/
+
+# Fichiers de sauvegarde
+*.backup
+*.bak
+*.old
+
+# =============================================================================
+# PROJET SPÉCIFIQUE
+# =============================================================================
+
+# Fichiers temporaires d'analyse
+temp_analysis/
+temp_pdfs/
+temp_results/
+
+# Cache des modèles IA
+model_cache/
+ollama_cache/
+openai_cache/
+
+# Fichiers de configuration personnalisés
+custom_config/
+user_settings/
+
+# =============================================================================
+# NOTES
+# =============================================================================
+
+# Ce fichier .gitignore est configuré pour :
+# - Protéger les clés API et informations sensibles
+# - Ignorer les environnements virtuels
+# - Exclure les fichiers temporaires et de cache
+# - Ignorer les fichiers spécifiques au système d'exploitation
+# - Protéger les fichiers de configuration personnels
+
+# Si vous voulez inclure des documents PDF d'exemple, décommentez la ligne :
+# # data/*.pdf
