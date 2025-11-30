@@ -1,8 +1,36 @@
+# API OpenAI
 openai
+
+# Lecture et extraction PDF
 PyMuPDF
+
+# Gestion des variables d'environnement
 python-dotenv
+
+# Notebook / développement interactif
 IPython
 jupyter
 jupyterlab
 ipykernel
+
+# Application web Streamlit
 streamlit
+
+# Analyse de données
+pandas
+numpy
+
+# Graphiques et dashboards
+plotly
+matplotlib
+seaborn
+
+# Gestion des fichiers
+python-magic
+pdfplumber
+
+# UI améliorée
+streamlit-aggrid
+
+# Requêtes HTTP / APIs externes
+requests
